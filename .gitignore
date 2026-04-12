@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Storage & Temporary Files
+storage/
+.temp/
+*.log
+
+# Environment & Sensitive
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+supabase/.temp/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# OS Files
+.DS_Store
+Thumbs.db

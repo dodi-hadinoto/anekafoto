@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --nothing-red: #ff0031;
+  --nothing-grey: #1a1a1a;
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-nothing-red: var(--nothing-red);
+  --color-nothing-grey: var(--nothing-grey);
+  --color-card-bg: var(--card-bg);
+  --color-border-dim: var(--border-color);
+  
+  --radius-nothing: 1.5rem;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Inter, system-ui, sans-serif;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-attachment: fixed;
+}
+
+/* Nothing OS Utility Classes */
+.nothing-glass {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-nothing);
+  position: relative;
+  overflow: hidden;
+}
+
+.nothing-dot-matrix {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-family: var(--font-geist-mono), monospace;
+}
+
+.nothing-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  
+  /* text styles */
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nothing-button:hover {
+  background-color: var(--nothing-red);
+  color: white;
+  border-color: var(--nothing-red);
+  transform: translateY(-1px);
+}
+
+/* Scrollbar Style */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--nothing-grey);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--nothing-red);
+}
