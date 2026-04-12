@@ -12,6 +12,11 @@ Daftar isu teknis, bugs, dan rintangan yang ditemukan selama pengembangan besert
 
 ---
 
+## 🔴 Active / Open Issues
+| B001 | 2026-04-12 | Live Site 404 Error after Deploy | Vercel / Domain | CRITICAL | ✅ RESOLVED: Domain conflict bypassed by migrating to new Vercel project (`anekafoto-crm`). Site is live. |
+
+---
+
 ## ✅ Fixed / Resolved
 | Date | Issue | Resolution |
 | :--- | :--- | :--- |
