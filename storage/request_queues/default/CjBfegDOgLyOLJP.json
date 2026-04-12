@@ -1,0 +1,9 @@
+{
+	"id": "CjBfegDOgLyOLJP",
+	"json": "{\"id\":\"CjBfegDOgLyOLJP\",\"url\":\"https://shop.anekafoto.com/43-tripod\",\"loadedUrl\":\"https://shop.anekafoto.com/43-tripod\",\"uniqueKey\":\"https://shop.anekafoto.com/43-tripod\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:38.455Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/43-tripod",
+	"url": "https://shop.anekafoto.com/43-tripod"
+}

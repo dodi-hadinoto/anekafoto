@@ -1,0 +1,9 @@
+{
+	"id": "0hUDBorzNEmy8Up",
+	"json": "{\"id\":\"0hUDBorzNEmy8Up\",\"url\":\"https://shop.anekafoto.com/brand/85-amaran\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/85-amaran\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/85-amaran\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:26.039Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/85-amaran",
+	"url": "https://shop.anekafoto.com/brand/85-amaran"
+}

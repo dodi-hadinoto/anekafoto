@@ -1,0 +1,9 @@
+{
+	"id": "lD84fhFniRCTmRD",
+	"json": "{\"id\":\"lD84fhFniRCTmRD\",\"url\":\"https://shop.anekafoto.com/home/2419-feiyutech-scorp-f2.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/2419-feiyutech-scorp-f2.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/2419-feiyutech-scorp-f2.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:26:06.207Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/2419-feiyutech-scorp-f2.html",
+	"url": "https://shop.anekafoto.com/home/2419-feiyutech-scorp-f2.html"
+}

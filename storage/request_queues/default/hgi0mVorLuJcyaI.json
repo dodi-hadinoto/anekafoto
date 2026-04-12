@@ -1,0 +1,9 @@
+{
+	"id": "hgi0mVorLuJcyaI",
+	"json": "{\"id\":\"hgi0mVorLuJcyaI\",\"url\":\"https://shop.anekafoto.com/home/3569-fujifilm-xf-56mm-f12-r.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/3569-fujifilm-xf-56mm-f12-r.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/3569-fujifilm-xf-56mm-f12-r.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:26:18.449Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/3569-fujifilm-xf-56mm-f12-r.html",
+	"url": "https://shop.anekafoto.com/home/3569-fujifilm-xf-56mm-f12-r.html"
+}

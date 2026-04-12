@@ -1,0 +1,9 @@
+{
+	"id": "Pc4BYwzOdE1TXR6",
+	"json": "{\"id\":\"Pc4BYwzOdE1TXR6\",\"url\":\"https://shop.anekafoto.com/brand/56-epson\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/56-epson\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/56-epson\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:43.454Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/56-epson",
+	"url": "https://shop.anekafoto.com/brand/56-epson"
+}

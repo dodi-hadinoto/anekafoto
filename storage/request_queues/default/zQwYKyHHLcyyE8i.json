@@ -1,0 +1,9 @@
+{
+	"id": "zQwYKyHHLcyyE8i",
+	"json": "{\"id\":\"zQwYKyHHLcyyE8i\",\"url\":\"https://shop.anekafoto.com/brand/47-ailite\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/47-ailite\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/47-ailite\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:23.995Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/47-ailite",
+	"url": "https://shop.anekafoto.com/brand/47-ailite"
+}

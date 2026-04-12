@@ -1,0 +1,9 @@
+{
+	"id": "X5Vmfub18pTT0MZ",
+	"json": "{\"id\":\"X5Vmfub18pTT0MZ\",\"url\":\"https://shop.anekafoto.com/home/1569-digital-camera-gr-iii-oth.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1569-digital-camera-gr-iii-oth.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1569-digital-camera-gr-iii-oth.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:30:30.225Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1569-digital-camera-gr-iii-oth.html",
+	"url": "https://shop.anekafoto.com/home/1569-digital-camera-gr-iii-oth.html"
+}

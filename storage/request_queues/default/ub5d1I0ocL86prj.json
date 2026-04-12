@@ -1,0 +1,9 @@
+{
+	"id": "ub5d1I0ocL86prj",
+	"json": "{\"id\":\"ub5d1I0ocL86prj\",\"url\":\"https://shop.anekafoto.com/home/3545-fujifilm-xf-8-16mm-f28-r-lm-wr.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/3545-fujifilm-xf-8-16mm-f28-r-lm-wr.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/3545-fujifilm-xf-8-16mm-f28-r-lm-wr.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:04.018Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/3545-fujifilm-xf-8-16mm-f28-r-lm-wr.html",
+	"url": "https://shop.anekafoto.com/home/3545-fujifilm-xf-8-16mm-f28-r-lm-wr.html"
+}

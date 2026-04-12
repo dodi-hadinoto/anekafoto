@@ -1,0 +1,9 @@
+{
+	"id": "wisWtP5ZOCNG64v",
+	"json": "{\"id\":\"wisWtP5ZOCNG64v\",\"url\":\"https://shop.anekafoto.com/home/1333-tiny-remote-control.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1333-tiny-remote-control.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1333-tiny-remote-control.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:28:50.851Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1333-tiny-remote-control.html",
+	"url": "https://shop.anekafoto.com/home/1333-tiny-remote-control.html"
+}

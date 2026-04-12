@@ -1,0 +1,9 @@
+{
+	"id": "ZTJwYaMawx1j08L",
+	"json": "{\"id\":\"ZTJwYaMawx1j08L\",\"url\":\"https://shop.anekafoto.com/7-camcorder\",\"loadedUrl\":\"https://shop.anekafoto.com/7-camcorder\",\"uniqueKey\":\"https://shop.anekafoto.com/7-camcorder\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:19:56.827Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/7-camcorder",
+	"url": "https://shop.anekafoto.com/7-camcorder"
+}

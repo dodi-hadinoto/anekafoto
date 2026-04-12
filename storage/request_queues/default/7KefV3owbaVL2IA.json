@@ -1,0 +1,9 @@
+{
+	"id": "7KefV3owbaVL2IA",
+	"json": "{\"id\":\"7KefV3owbaVL2IA\",\"url\":\"https://shop.anekafoto.com/brand/48-desview\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/48-desview\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/48-desview\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:42.823Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/48-desview",
+	"url": "https://shop.anekafoto.com/brand/48-desview"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "3q3sJec4GAtRsWb",
+	"json": "{\"id\":\"3q3sJec4GAtRsWb\",\"url\":\"https://shop.anekafoto.com/home/1442-lumix-s5-ii-x-body-only.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1442-lumix-s5-ii-x-body-only.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1442-lumix-s5-ii-x-body-only.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:29:11.430Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1442-lumix-s5-ii-x-body-only.html",
+	"url": "https://shop.anekafoto.com/home/1442-lumix-s5-ii-x-body-only.html"
+}

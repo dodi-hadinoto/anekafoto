@@ -1,0 +1,9 @@
+{
+	"id": "bq0QQuBkLwb9Bc5",
+	"json": "{\"id\":\"bq0QQuBkLwb9Bc5\",\"url\":\"https://shop.anekafoto.com/home/1573-theta-x-360-camera.html\",\"loadedUrl\":\"https://shop.anekafoto.com/2-home\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1573-theta-x-360-camera.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:46.037Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1573-theta-x-360-camera.html",
+	"url": "https://shop.anekafoto.com/home/1573-theta-x-360-camera.html"
+}

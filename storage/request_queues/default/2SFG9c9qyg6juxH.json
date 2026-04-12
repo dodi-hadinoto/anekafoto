@@ -1,0 +1,9 @@
+{
+	"id": "2SFG9c9qyg6juxH",
+	"json": "{\"id\":\"2SFG9c9qyg6juxH\",\"url\":\"https://shop.anekafoto.com/home/3734-1370-viltrox-af-33mm-f14-lens.html#/3-color-silver/183-style-canon_ef\",\"loadedUrl\":\"https://shop.anekafoto.com/home/3734-1370-viltrox-af-33mm-f14-lens.html#/3-color-silver/183-style-canon_ef\",\"uniqueKey\":\"https://shop.anekafoto.com/home/3734-1370-viltrox-af-33mm-f14-lens.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:32:45.279Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/3734-1370-viltrox-af-33mm-f14-lens.html",
+	"url": "https://shop.anekafoto.com/home/3734-1370-viltrox-af-33mm-f14-lens.html#/3-color-silver/183-style-canon_ef"
+}

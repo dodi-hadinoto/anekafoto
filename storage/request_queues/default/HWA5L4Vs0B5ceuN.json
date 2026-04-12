@@ -1,0 +1,9 @@
+{
+	"id": "HWA5L4Vs0B5ceuN",
+	"json": "{\"id\":\"HWA5L4Vs0B5ceuN\",\"url\":\"https://shop.anekafoto.com/home/308-tripod-q-666.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/308-tripod-q-666.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/308-tripod-q-666.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:24:00.929Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/308-tripod-q-666.html",
+	"url": "https://shop.anekafoto.com/home/308-tripod-q-666.html"
+}

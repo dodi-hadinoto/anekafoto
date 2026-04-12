@@ -1,0 +1,9 @@
+{
+	"id": "3Zz5UBQmG4nmHk4",
+	"json": "{\"id\":\"3Zz5UBQmG4nmHk4\",\"url\":\"https://shop.anekafoto.com/brand/39-smoke-b\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/39-smoke-b\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/39-smoke-b\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:40.105Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/39-smoke-b",
+	"url": "https://shop.anekafoto.com/brand/39-smoke-b"
+}

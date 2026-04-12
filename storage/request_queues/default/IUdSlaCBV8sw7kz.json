@@ -1,0 +1,9 @@
+{
+	"id": "IUdSlaCBV8sw7kz",
+	"json": "{\"id\":\"IUdSlaCBV8sw7kz\",\"url\":\"https://shop.anekafoto.com/brand/22-lowepro\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/22-lowepro\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/22-lowepro\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:07.284Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/22-lowepro",
+	"url": "https://shop.anekafoto.com/brand/22-lowepro"
+}

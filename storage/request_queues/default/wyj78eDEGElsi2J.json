@@ -1,0 +1,9 @@
+{
+	"id": "wyj78eDEGElsi2J",
+	"json": "{\"id\":\"wyj78eDEGElsi2J\",\"url\":\"https://shop.anekafoto.com/home/4098-1674-iphone-13-128gb256gb.html#/387-capacity-128gb/477-color-starlight\",\"loadedUrl\":\"https://shop.anekafoto.com/home/4098-1674-iphone-13-128gb256gb.html#/387-capacity-128gb/477-color-starlight\",\"uniqueKey\":\"https://shop.anekafoto.com/home/4098-1674-iphone-13-128gb256gb.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:26:59.420Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/4098-1674-iphone-13-128gb256gb.html",
+	"url": "https://shop.anekafoto.com/home/4098-1674-iphone-13-128gb256gb.html#/387-capacity-128gb/477-color-starlight"
+}

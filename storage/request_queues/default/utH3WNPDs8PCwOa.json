@@ -1,0 +1,9 @@
+{
+	"id": "utH3WNPDs8PCwOa",
+	"json": "{\"id\":\"utH3WNPDs8PCwOa\",\"url\":\"https://shop.anekafoto.com/home/1260-1105-z-fc-body.html#/245-style-body_only\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1260-1105-z-fc-body.html#/245-style-body_only\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1260-1105-z-fc-body.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:28:35.734Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1260-1105-z-fc-body.html",
+	"url": "https://shop.anekafoto.com/home/1260-1105-z-fc-body.html#/245-style-body_only"
+}

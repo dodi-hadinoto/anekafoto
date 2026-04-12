@@ -1,0 +1,9 @@
+{
+	"id": "eVybKL2cwTKMQfr",
+	"json": "{\"id\":\"eVybKL2cwTKMQfr\",\"url\":\"https://shop.anekafoto.com/home/3521-fujifilm-xf-60mm-f24-r-macro.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/3521-fujifilm-xf-60mm-f24-r-macro.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/3521-fujifilm-xf-60mm-f24-r-macro.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:26:16.013Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/3521-fujifilm-xf-60mm-f24-r-macro.html",
+	"url": "https://shop.anekafoto.com/home/3521-fujifilm-xf-60mm-f24-r-macro.html"
+}

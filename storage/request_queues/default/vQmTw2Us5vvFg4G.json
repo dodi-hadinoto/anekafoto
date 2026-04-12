@@ -1,0 +1,9 @@
+{
+	"id": "vQmTw2Us5vvFg4G",
+	"json": "{\"id\":\"vQmTw2Us5vvFg4G\",\"url\":\"https://shop.anekafoto.com/brand/103-exascend\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/103-exascend\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/103-exascend\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:44.687Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/103-exascend",
+	"url": "https://shop.anekafoto.com/brand/103-exascend"
+}

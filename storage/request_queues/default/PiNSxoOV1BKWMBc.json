@@ -1,0 +1,9 @@
+{
+	"id": "PiNSxoOV1BKWMBc",
+	"json": "{\"id\":\"PiNSxoOV1BKWMBc\",\"url\":\"https://shop.anekafoto.com/brand/21-lexar\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/21-lexar\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/21-lexar\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:06.681Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/21-lexar",
+	"url": "https://shop.anekafoto.com/brand/21-lexar"
+}

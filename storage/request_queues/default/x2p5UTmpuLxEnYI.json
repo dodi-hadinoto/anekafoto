@@ -1,0 +1,9 @@
+{
+	"id": "x2p5UTmpuLxEnYI",
+	"json": "{\"id\":\"x2p5UTmpuLxEnYI\",\"url\":\"https://shop.anekafoto.com/brand/55-cinetreak\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/55-cinetreak\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/55-cinetreak\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:38.279Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/55-cinetreak",
+	"url": "https://shop.anekafoto.com/brand/55-cinetreak"
+}

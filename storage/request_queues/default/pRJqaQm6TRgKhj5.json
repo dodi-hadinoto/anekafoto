@@ -1,0 +1,9 @@
+{
+	"id": "pRJqaQm6TRgKhj5",
+	"json": "{\"id\":\"pRJqaQm6TRgKhj5\",\"url\":\"https://shop.anekafoto.com/brand/105-jackery\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/105-jackery\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/105-jackery\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:00.826Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/105-jackery",
+	"url": "https://shop.anekafoto.com/brand/105-jackery"
+}

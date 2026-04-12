@@ -1,0 +1,9 @@
+{
+	"id": "jhmNcHyIYnN8YSl",
+	"json": "{\"id\":\"jhmNcHyIYnN8YSl\",\"url\":\"https://shop.anekafoto.com/home/4092-kodak-paper-printer-305.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/4092-kodak-paper-printer-305.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/4092-kodak-paper-printer-305.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:27:22.406Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/4092-kodak-paper-printer-305.html",
+	"url": "https://shop.anekafoto.com/home/4092-kodak-paper-printer-305.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "sq6n2A0p9t0SbgQ",
+	"json": "{\"id\":\"sq6n2A0p9t0SbgQ\",\"url\":\"https://shop.anekafoto.com/9-digital-camera\",\"loadedUrl\":\"https://shop.anekafoto.com/9-digital-camera\",\"uniqueKey\":\"https://shop.anekafoto.com/9-digital-camera\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:01.495Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/9-digital-camera",
+	"url": "https://shop.anekafoto.com/9-digital-camera"
+}

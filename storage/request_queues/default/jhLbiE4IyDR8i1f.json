@@ -1,0 +1,9 @@
+{
+	"id": "jhLbiE4IyDR8i1f",
+	"json": "{\"id\":\"jhLbiE4IyDR8i1f\",\"url\":\"https://shop.anekafoto.com/brand/76-kodak\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/76-kodak\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/76-kodak\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:02.934Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/76-kodak",
+	"url": "https://shop.anekafoto.com/brand/76-kodak"
+}

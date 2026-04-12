@@ -1,0 +1,9 @@
+{
+	"id": "J19ulWjaF8qqlWh",
+	"json": "{\"id\":\"J19ulWjaF8qqlWh\",\"url\":\"https://shop.anekafoto.com/brand/70-canon\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/70-canon\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/70-canon\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:37.639Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/70-canon",
+	"url": "https://shop.anekafoto.com/brand/70-canon"
+}

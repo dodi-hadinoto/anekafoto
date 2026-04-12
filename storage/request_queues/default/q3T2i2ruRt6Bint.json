@@ -1,0 +1,9 @@
+{
+	"id": "q3T2i2ruRt6Bint",
+	"json": "{\"id\":\"q3T2i2ruRt6Bint\",\"url\":\"https://shop.anekafoto.com/36-content-creator\",\"loadedUrl\":\"https://shop.anekafoto.com/36-content-creator\",\"uniqueKey\":\"https://shop.anekafoto.com/36-content-creator\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:19.901Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/36-content-creator",
+	"url": "https://shop.anekafoto.com/36-content-creator"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "JO7UOngMgf71xmf",
+	"json": "{\"id\":\"JO7UOngMgf71xmf\",\"url\":\"https://shop.anekafoto.com/395-cinema-camera\",\"loadedUrl\":\"https://shop.anekafoto.com/395-cinema-camera\",\"uniqueKey\":\"https://shop.anekafoto.com/395-cinema-camera\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:54.906Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/395-cinema-camera",
+	"url": "https://shop.anekafoto.com/395-cinema-camera"
+}

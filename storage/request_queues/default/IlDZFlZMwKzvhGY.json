@@ -1,0 +1,9 @@
+{
+	"id": "IlDZFlZMwKzvhGY",
+	"json": "{\"id\":\"IlDZFlZMwKzvhGY\",\"url\":\"https://shop.anekafoto.com/home/4335-1927-dji-osmo-nano.html#/386-capacity-64gb\",\"loadedUrl\":\"https://shop.anekafoto.com/home/4335-1927-dji-osmo-nano.html#/386-capacity-64gb\",\"uniqueKey\":\"https://shop.anekafoto.com/home/4335-1927-dji-osmo-nano.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:25:36.226Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/4335-1927-dji-osmo-nano.html",
+	"url": "https://shop.anekafoto.com/home/4335-1927-dji-osmo-nano.html#/386-capacity-64gb"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "JzLoANfxXsg07K0",
+	"json": "{\"id\":\"JzLoANfxXsg07K0\",\"url\":\"https://shop.anekafoto.com/home/3761-sandisk-sdxc-extreme-64gb-uhs-i-read-170mbs-and-write-80mbs.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/3761-sandisk-sdxc-extreme-64gb-uhs-i-read-170mbs-and-write-80mbs.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/3761-sandisk-sdxc-extreme-64gb-uhs-i-read-170mbs-and-write-80mbs.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:30:53.363Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/3761-sandisk-sdxc-extreme-64gb-uhs-i-read-170mbs-and-write-80mbs.html",
+	"url": "https://shop.anekafoto.com/home/3761-sandisk-sdxc-extreme-64gb-uhs-i-read-170mbs-and-write-80mbs.html"
+}

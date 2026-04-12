@@ -1,0 +1,9 @@
+{
+	"id": "3H5rBVfNd72s6Mk",
+	"json": "{\"id\":\"3H5rBVfNd72s6Mk\",\"url\":\"https://shop.anekafoto.com/home/1734-insta360-x4-rechargeable-battery.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1734-insta360-x4-rechargeable-battery.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1734-insta360-x4-rechargeable-battery.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:27:08.052Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1734-insta360-x4-rechargeable-battery.html",
+	"url": "https://shop.anekafoto.com/home/1734-insta360-x4-rechargeable-battery.html"
+}

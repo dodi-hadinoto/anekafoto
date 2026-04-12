@@ -1,0 +1,9 @@
+{
+	"id": "CAgDgJt8HeBC0h4",
+	"json": "{\"id\":\"CAgDgJt8HeBC0h4\",\"url\":\"https://shop.anekafoto.com/home/1828-hollyland-mars-t1000-hardcase.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1828-hollyland-mars-t1000-hardcase.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1828-hollyland-mars-t1000-hardcase.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:18.691Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1828-hollyland-mars-t1000-hardcase.html",
+	"url": "https://shop.anekafoto.com/home/1828-hollyland-mars-t1000-hardcase.html"
+}

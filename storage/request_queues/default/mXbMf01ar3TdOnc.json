@@ -1,0 +1,9 @@
+{
+	"id": "mXbMf01ar3TdOnc",
+	"json": "{\"id\":\"mXbMf01ar3TdOnc\",\"url\":\"https://shop.anekafoto.com/home/4030-1607-ricoh-pentax-wg-8-digital-camera.html#/1-color-black\",\"loadedUrl\":\"https://shop.anekafoto.com/home/4030-1607-ricoh-pentax-wg-8-digital-camera.html#/1-color-black\",\"uniqueKey\":\"https://shop.anekafoto.com/home/4030-1607-ricoh-pentax-wg-8-digital-camera.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:29:17.225Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/4030-1607-ricoh-pentax-wg-8-digital-camera.html",
+	"url": "https://shop.anekafoto.com/home/4030-1607-ricoh-pentax-wg-8-digital-camera.html#/1-color-black"
+}

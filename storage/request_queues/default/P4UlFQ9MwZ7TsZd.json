@@ -1,0 +1,9 @@
+{
+	"id": "P4UlFQ9MwZ7TsZd",
+	"json": "{\"id\":\"P4UlFQ9MwZ7TsZd\",\"url\":\"https://shop.anekafoto.com/brand/104-iphone\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/104-iphone\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/104-iphone\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:58.911Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/104-iphone",
+	"url": "https://shop.anekafoto.com/brand/104-iphone"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qBHUifXlHswfca0",
+	"json": "{\"id\":\"qBHUifXlHswfca0\",\"url\":\"https://shop.anekafoto.com/home/2320-everbrait-mrd-30s.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/2320-everbrait-mrd-30s.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/2320-everbrait-mrd-30s.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:25:47.123Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/2320-everbrait-mrd-30s.html",
+	"url": "https://shop.anekafoto.com/home/2320-everbrait-mrd-30s.html"
+}

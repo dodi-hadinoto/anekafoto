@@ -1,0 +1,9 @@
+{
+	"id": "JbIRXsWTlDmxa5j",
+	"json": "{\"id\":\"JbIRXsWTlDmxa5j\",\"url\":\"https://shop.anekafoto.com/37-lens-filters\",\"loadedUrl\":\"https://shop.anekafoto.com/37-lens-filters\",\"uniqueKey\":\"https://shop.anekafoto.com/37-lens-filters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:34.283Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/37-lens-filters",
+	"url": "https://shop.anekafoto.com/37-lens-filters"
+}

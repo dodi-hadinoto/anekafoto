@@ -1,0 +1,9 @@
+{
+	"id": "TZVpJgguzde1J6Q",
+	"json": "{\"id\":\"TZVpJgguzde1J6Q\",\"url\":\"https://shop.anekafoto.com/brand/75-accsoon\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/75-accsoon\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/75-accsoon\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:22.262Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/75-accsoon",
+	"url": "https://shop.anekafoto.com/brand/75-accsoon"
+}

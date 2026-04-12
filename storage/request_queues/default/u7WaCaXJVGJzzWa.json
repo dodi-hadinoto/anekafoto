@@ -1,0 +1,9 @@
+{
+	"id": "u7WaCaXJVGJzzWa",
+	"json": "{\"id\":\"u7WaCaXJVGJzzWa\",\"url\":\"https://shop.anekafoto.com/home/2072-c-stand-spirit-beta.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/2072-c-stand-spirit-beta.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/2072-c-stand-spirit-beta.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:32:03.046Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/2072-c-stand-spirit-beta.html",
+	"url": "https://shop.anekafoto.com/home/2072-c-stand-spirit-beta.html"
+}

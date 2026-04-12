@@ -1,0 +1,9 @@
+{
+	"id": "X44lNzpPLa5OptL",
+	"json": "{\"id\":\"X44lNzpPLa5OptL\",\"url\":\"https://shop.anekafoto.com/30-accessories\",\"loadedUrl\":\"https://shop.anekafoto.com/30-accessories\",\"uniqueKey\":\"https://shop.anekafoto.com/30-accessories\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:22.373Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/30-accessories",
+	"url": "https://shop.anekafoto.com/30-accessories"
+}

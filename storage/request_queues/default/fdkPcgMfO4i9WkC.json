@@ -1,0 +1,9 @@
+{
+	"id": "fdkPcgMfO4i9WkC",
+	"json": "{\"id\":\"fdkPcgMfO4i9WkC\",\"url\":\"https://shop.anekafoto.com/home/3557-fujifilm-xf-70-300mm-f4-56-r-lm-ois-wr.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/3557-fujifilm-xf-70-300mm-f4-56-r-lm-ois-wr.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/3557-fujifilm-xf-70-300mm-f4-56-r-lm-ois-wr.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:26:14.291Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/3557-fujifilm-xf-70-300mm-f4-56-r-lm-ois-wr.html",
+	"url": "https://shop.anekafoto.com/home/3557-fujifilm-xf-70-300mm-f4-56-r-lm-ois-wr.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "g2y28rS94jC5Brc",
+	"json": "{\"id\":\"g2y28rS94jC5Brc\",\"url\":\"https://shop.anekafoto.com/brand/9-beike\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/9-beike\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/9-beike\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:30.978Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/9-beike",
+	"url": "https://shop.anekafoto.com/brand/9-beike"
+}

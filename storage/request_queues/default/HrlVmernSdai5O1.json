@@ -1,0 +1,9 @@
+{
+	"id": "HrlVmernSdai5O1",
+	"json": "{\"id\":\"HrlVmernSdai5O1\",\"url\":\"https://shop.anekafoto.com/12-lenses\",\"loadedUrl\":\"https://shop.anekafoto.com/12-lenses\",\"uniqueKey\":\"https://shop.anekafoto.com/12-lenses\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:05.519Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/12-lenses",
+	"url": "https://shop.anekafoto.com/12-lenses"
+}

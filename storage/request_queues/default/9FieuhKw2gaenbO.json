@@ -1,0 +1,9 @@
+{
+	"id": "9FieuhKw2gaenbO",
+	"json": "{\"id\":\"9FieuhKw2gaenbO\",\"url\":\"https://shop.anekafoto.com/brand/82-saramonic\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/82-saramonic\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/82-saramonic\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:32.610Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/82-saramonic",
+	"url": "https://shop.anekafoto.com/brand/82-saramonic"
+}

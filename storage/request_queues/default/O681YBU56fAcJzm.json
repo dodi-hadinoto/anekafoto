@@ -1,0 +1,9 @@
+{
+	"id": "O681YBU56fAcJzm",
+	"json": "{\"id\":\"O681YBU56fAcJzm\",\"url\":\"https://shop.anekafoto.com/home/1850-hollyland-walkie-talkie-kits.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1850-hollyland-walkie-talkie-kits.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1850-hollyland-walkie-talkie-kits.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:26:52.882Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1850-hollyland-walkie-talkie-kits.html",
+	"url": "https://shop.anekafoto.com/home/1850-hollyland-walkie-talkie-kits.html"
+}

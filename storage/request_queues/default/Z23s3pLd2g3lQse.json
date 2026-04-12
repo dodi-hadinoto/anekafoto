@@ -1,0 +1,9 @@
+{
+	"id": "Z23s3pLd2g3lQse",
+	"json": "{\"id\":\"Z23s3pLd2g3lQse\",\"url\":\"https://shop.anekafoto.com/brand/38-synco\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/38-synco\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/38-synco\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:42.959Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/38-synco",
+	"url": "https://shop.anekafoto.com/brand/38-synco"
+}

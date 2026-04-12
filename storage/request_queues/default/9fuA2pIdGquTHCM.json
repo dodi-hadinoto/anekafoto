@@ -1,0 +1,9 @@
+{
+	"id": "9fuA2pIdGquTHCM",
+	"json": "{\"id\":\"9fuA2pIdGquTHCM\",\"url\":\"https://shop.anekafoto.com/home/1720-183-lens-19mm-f-28-dn-af-for-sony.html#/1-color-black\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1720-183-lens-19mm-f-28-dn-af-for-sony.html#/1-color-black\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1720-183-lens-19mm-f-28-dn-af-for-sony.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:31:25.565Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1720-183-lens-19mm-f-28-dn-af-for-sony.html",
+	"url": "https://shop.anekafoto.com/home/1720-183-lens-19mm-f-28-dn-af-for-sony.html#/1-color-black"
+}

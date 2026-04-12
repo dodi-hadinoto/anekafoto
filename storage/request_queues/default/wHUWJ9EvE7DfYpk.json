@@ -1,0 +1,9 @@
+{
+	"id": "wHUWJ9EvE7DfYpk",
+	"json": "{\"id\":\"wHUWJ9EvE7DfYpk\",\"url\":\"https://shop.anekafoto.com/home/4196-moza-aircross.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/4196-moza-aircross.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/4196-moza-aircross.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:21:08.337Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/4196-moza-aircross.html",
+	"url": "https://shop.anekafoto.com/home/4196-moza-aircross.html"
+}

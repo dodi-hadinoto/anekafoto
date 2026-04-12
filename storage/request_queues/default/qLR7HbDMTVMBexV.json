@@ -1,0 +1,9 @@
+{
+	"id": "qLR7HbDMTVMBexV",
+	"json": "{\"id\":\"qLR7HbDMTVMBexV\",\"url\":\"https://shop.anekafoto.com/home/4097-1659-iphone-12-128gb64gb.html#/1-color-black/386-capacity-64gb\",\"loadedUrl\":\"https://shop.anekafoto.com/home/4097-1659-iphone-12-128gb64gb.html#/1-color-black/386-capacity-64gb\",\"uniqueKey\":\"https://shop.anekafoto.com/home/4097-1659-iphone-12-128gb64gb.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:27:02.320Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/4097-1659-iphone-12-128gb64gb.html",
+	"url": "https://shop.anekafoto.com/home/4097-1659-iphone-12-128gb64gb.html#/1-color-black/386-capacity-64gb"
+}

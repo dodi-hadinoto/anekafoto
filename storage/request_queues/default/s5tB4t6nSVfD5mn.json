@@ -1,0 +1,9 @@
+{
+	"id": "s5tB4t6nSVfD5mn",
+	"json": "{\"id\":\"s5tB4t6nSVfD5mn\",\"url\":\"https://shop.anekafoto.com/394-smartphone\",\"loadedUrl\":\"https://shop.anekafoto.com/394-smartphone\",\"uniqueKey\":\"https://shop.anekafoto.com/394-smartphone\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:20:53.283Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/394-smartphone",
+	"url": "https://shop.anekafoto.com/394-smartphone"
+}

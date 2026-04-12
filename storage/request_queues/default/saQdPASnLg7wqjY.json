@@ -1,0 +1,9 @@
+{
+	"id": "saQdPASnLg7wqjY",
+	"json": "{\"id\":\"saQdPASnLg7wqjY\",\"url\":\"https://shop.anekafoto.com/home/1650-lens-24-70mm-f-28-dg-dn-art-for-sony-e.html\",\"loadedUrl\":\"https://shop.anekafoto.com/home/1650-lens-24-70mm-f-28-dg-dn-art-for-sony-e.html\",\"uniqueKey\":\"https://shop.anekafoto.com/home/1650-lens-24-70mm-f-28-dg-dn-art-for-sony-e.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:31:19.157Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/1650-lens-24-70mm-f-28-dg-dn-art-for-sony-e.html",
+	"url": "https://shop.anekafoto.com/home/1650-lens-24-70mm-f-28-dg-dn-art-for-sony-e.html"
+}

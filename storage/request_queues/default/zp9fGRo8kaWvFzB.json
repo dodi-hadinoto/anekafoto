@@ -1,0 +1,9 @@
+{
+	"id": "zp9fGRo8kaWvFzB",
+	"json": "{\"id\":\"zp9fGRo8kaWvFzB\",\"url\":\"https://shop.anekafoto.com/\",\"loadedUrl\":\"https://shop.anekafoto.com/\",\"uniqueKey\":\"https://shop.anekafoto.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-12T15:19:53.154Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com",
+	"url": "https://shop.anekafoto.com/"
+}

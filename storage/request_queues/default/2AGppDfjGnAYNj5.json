@@ -1,0 +1,9 @@
+{
+	"id": "2AGppDfjGnAYNj5",
+	"json": "{\"id\":\"2AGppDfjGnAYNj5\",\"url\":\"https://shop.anekafoto.com/home/4309-1903-insta360-x5-360-8k-camera.html#/160-variant-standard_package\",\"loadedUrl\":\"https://shop.anekafoto.com/home/4309-1903-insta360-x5-360-8k-camera.html#/160-variant-standard_package\",\"uniqueKey\":\"https://shop.anekafoto.com/home/4309-1903-insta360-x5-360-8k-camera.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"DETAIL\",\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:27:00.970Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/home/4309-1903-insta360-x5-360-8k-camera.html",
+	"url": "https://shop.anekafoto.com/home/4309-1903-insta360-x5-360-8k-camera.html#/160-variant-standard_package"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ophY5y3h2VkMhCG",
+	"json": "{\"id\":\"ophY5y3h2VkMhCG\",\"url\":\"https://shop.anekafoto.com/brand/63-xgimi\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/63-xgimi\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/63-xgimi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:50.949Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/63-xgimi",
+	"url": "https://shop.anekafoto.com/brand/63-xgimi"
+}

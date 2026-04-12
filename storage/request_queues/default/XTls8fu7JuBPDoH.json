@@ -1,0 +1,9 @@
+{
+	"id": "XTls8fu7JuBPDoH",
+	"json": "{\"id\":\"XTls8fu7JuBPDoH\",\"url\":\"https://shop.anekafoto.com/brand/34-ttartisan\",\"loadedUrl\":\"https://shop.anekafoto.com/brand/34-ttartisan\",\"uniqueKey\":\"https://shop.anekafoto.com/brand/34-ttartisan\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"LIST\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-04-12T15:22:46.586Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://shop.anekafoto.com/brand/34-ttartisan",
+	"url": "https://shop.anekafoto.com/brand/34-ttartisan"
+}
