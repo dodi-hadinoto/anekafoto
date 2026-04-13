@@ -37,8 +37,8 @@ export const InventoryGrid = ({ initialProducts }: InventoryGridProps) => {
   // Filter logic
   const filteredProducts = useMemo(() => {
     return initialProducts.filter(product => {
-      const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                            product.brand.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesSearch = (product.name || '').toLowerCase().includes(searchQuery.toLowerCase()) ||
+                            (product.brand || '').toLowerCase().includes(searchQuery.toLowerCase());
       const matchesBrand = selectedBrand ? product.brand === selectedBrand : true;
       return matchesSearch && matchesBrand;
     });

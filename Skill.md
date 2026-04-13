@@ -38,3 +38,21 @@ description: Kumpulan skill spesifik untuk project Anekafoto, mencakup Scraping,
   ```
 
 **AI Use Case**: Digunakan untuk membangun "WhatsApp Bridge" yang menghubungkan data dari tabel `anekafoto_leads` di Supabase ke percakapan real-time dengan pelanggan.
+
+---
+
+## 3. Session Memory & Pending Tasks (Auto-Saved)
+
+> **Last State (13 April 2026)**
+> - ✅ **Vercel 404 Fixed**: Deployment dipindahkan ke project `anekafoto-crm.vercel.app` (Struktur flat).
+> - ✅ **Nothing OS 4.0 UI**: Dashboard utama selesai dibangun dengan `framer-motion` dan indikator status *live*.
+> - ✅ **Data Seeded**: 442 Data Produk Crawlee telah berhasil dimuat ke Supabase.
+> - ✅ **PRD Updated**: Fitur "3.5 Interactive Smart Quotation" telah ditambahkan ke PRD.
+
+### 🚀 Next Action for Tomorrow (Prioritas Eksekusi)
+1. **Eksekusi Schema Database (Supabase)**: Membangun skema untuk fitur *Interactive Smart Quotation*.
+   - Migration file `20260412173000_smart_quotations.sql` perlu dieksekusi.
+   - Tabel: `anekafoto_quotations` dan `anekafoto_quotation_items`.
+   - Setup RLS (Row Level Security) untuk akses link penawaran publik (`anon` role but bound by UUID).
+2. **Build UI Web Quotation**: Membuat halaman page dinamis untuk URL `/[quotation_id]` agar kustomer bisa menekan tombol *Approve/Reject*.
+3. **Mulai WhatsApp Bridge**: Mengirimkan link tersebut secara otomatis.

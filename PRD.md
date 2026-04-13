@@ -48,6 +48,12 @@ Visualisasi proses penjualan dalam 4 tahap Utama:
 *   **Auto-Notification**: Bot mengirim pesan ke sales saat ada lead baru di dashboard.
 *   **Session Dashboard**: Menu untuk scan QR code WhatsApp langsung dari CRM.
 
+### 3.5 Interactive Smart Quotation
+*   **Dynamic HTML Link**: Sistem secara otomatis men-_generate_ halaman penawaran khusus (HTML web link) untuk setiap prospek/customer.
+*   **WhatsApp Automation**: Tautan penawaran tersebut dikirimkan ke WhatsApp customer secara otomatis melalui WhatsApp Bridge.
+*   **Customer Interaction**: Customer dapat membuka link tersebut untuk melihat penawaran, melakukan proses **Approve**, **Reject**, atau **Negotiate** secara langsung dari halaman HTML.
+*   **Real-time CRM Sync**: Setiap aksi yang dilakukan customer pada link HTML tersebut (approval/penolakan) akan otomatis memperbarui status *Lead/Deal* secara *real-time* dan memicu notifikasi di *Dashboard* CRM sales.
+
 ---
 
 ## 4. Technical Architecture

@@ -3,16 +3,17 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutGrid, Users, BringToFront, Box } from "lucide-react";
+import { LayoutGrid, Users, BringToFront, Box, FileText } from "lucide-react";
 
 export function Sidebar() {
   const pathname = usePathname();
 
   const links = [
     { href: "/dashboard", label: "DASHBOARD", icon: LayoutGrid },
+    { href: "/inventory", label: "INVENTORY", icon: Box },
     { href: "/customers", label: "CUSTOMERS", icon: Users },
     { href: "/leads", label: "LEADS", icon: BringToFront },
-    { href: "/inventory", label: "INVENTORY", icon: Box },
+    { href: "/quotations", label: "QUOTATIONS", icon: FileText },
   ];
 
   return (

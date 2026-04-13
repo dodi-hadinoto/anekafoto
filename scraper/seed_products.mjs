@@ -9,7 +9,7 @@ const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const results = [];
-const CSV_FILE = 'Anekafoto_Products_Detailed.csv';
+const CSV_FILE = 'scraper/Anekafoto_Products_Detailed.csv';
 const TABLE_NAME = 'anekafoto_products';
 
 console.log(`🚀 Starting data ingestion into ${TABLE_NAME}...`);

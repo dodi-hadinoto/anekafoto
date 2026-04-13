@@ -29,6 +29,12 @@ export default async function DashboardPage() {
     .order('price', { ascending: false })
     .limit(4);
 
+  // Fetch real metrics
+  const { count: totalLeads } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true });
+  const { count: inquiryCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'inquiry');
+  const { count: quoteCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'quotation');
+  const { count: wonCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'closed_won');
+
   return (
     <div className="flex flex-col text-white font-sans overflow-x-hidden pt-4">
       <header className="flex justify-between items-center mb-12">
@@ -53,10 +59,10 @@ export default async function DashboardPage() {
       </header>
 
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <MetricCard title="Total Leads" value="1,284" trend="+12%" isPositive={true} delay={0.1} />
-        <MetricCard title="Inquiry Status" value="452" trend="+5%" isPositive={true} delay={0.2} />
-        <MetricCard title="Quotation Sent" value="89" trend="-2%" isPositive={false} delay={0.3} />
-        <MetricCard title="Closed Won" value="23" trend="+22%" isPositive={true} delay={0.4} />
+        <MetricCard title="Total Leads" value={(totalLeads || 0).toLocaleString()} trend="+12%" isPositive={true} delay={0.1} />
+        <MetricCard title="Inquiry Status" value={(inquiryCount || 0).toLocaleString()} trend="+5%" isPositive={true} delay={0.2} />
+        <MetricCard title="Quotation Sent" value={(quoteCount || 0).toLocaleString()} trend="-2%" isPositive={false} delay={0.3} />
+        <MetricCard title="Closed Won" value={(wonCount || 0).toLocaleString()} trend="+22%" isPositive={true} delay={0.4} />
       </section>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-2">

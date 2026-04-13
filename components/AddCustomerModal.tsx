@@ -1,9 +1,10 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { X, User, Phone, Mail, MapPin, Tag, Save, Loader2 } from 'lucide-react';
+import { X, User, Phone, Mail, MapPin, Tag, Save, Loader2, Plus } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { supabase } from '@/lib/supabase';
+import { createCustomer } from '@/app/(crm)/customers/actions';
 
 interface Category {
   id: string;
@@ -19,6 +20,7 @@ interface AddCustomerModalProps {
 export const AddCustomerModal = ({ isOpen, onClose, onSuccess }: AddCustomerModalProps) => {
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(false);
+  const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [formData, setFormData] = useState({
     full_name: '',
     whatsapp: '',
@@ -41,20 +43,22 @@ export const AddCustomerModal = ({ isOpen, onClose, onSuccess }: AddCustomerModa
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!formData.category_id) {
+      alert('Pilih kategori customer terlebih dahulu');
+      return;
+    }
+    
     setLoading(true);
-
-    const { error } = await supabase
-      .from('anekafoto_customers')
-      .insert([formData]);
-
+    const result = await createCustomer(formData);
     setLoading(false);
-    if (!error) {
+
+    if (result.success) {
       setFormData({ full_name: '', whatsapp: '', email: '', address: '', category_id: '', notes: '' });
       onSuccess();
       onClose();
     } else {
-      console.error('Error adding customer:', error);
-      alert('Gagal menambah pelanggan: ' + error.message);
+      console.error('Error adding customer:', result.error);
+      alert('Gagal menambah pelanggan: ' + result.error);
     }
   };
 
@@ -136,22 +140,46 @@ export const AddCustomerModal = ({ isOpen, onClose, onSuccess }: AddCustomerModa
                 </div>
 
                 {/* Category Selection */}
-                <div className="space-y-2">
+                <div className="space-y-2 relative">
                   <label className="nothing-dot-matrix text-[10px] text-white/30 uppercase block">Customer Category</label>
-                  <div className="nothing-glass flex items-center gap-3 px-4 py-2 hover:border-white/20 transition-all border border-transparent">
-                    <Tag size={16} className="text-white/20" />
-                    <select 
-                      required
-                      className="bg-transparent border-none outline-none text-sm w-full py-1 appearance-none text-white/80 active:bg-black"
-                      value={formData.category_id}
-                      onChange={(e) => setFormData({...formData, category_id: e.target.value})}
-                    >
-                      <option value="" disabled className="bg-black">Select Category</option>
-                      {categories.map(cat => (
-                        <option key={cat.id} value={cat.id} className="bg-black">{cat.name}</option>
-                      ))}
-                    </select>
+                  <div 
+                    onClick={() => setIsCategoryOpen(!isCategoryOpen)}
+                    className="nothing-glass flex items-center justify-between px-4 py-2 hover:border-white/20 transition-all border border-transparent cursor-pointer"
+                  >
+                    <div className="flex items-center gap-3">
+                      <Tag size={16} className="text-white/20" />
+                      <span className={`text-sm ${formData.category_id ? 'text-white' : 'text-white/30 font-mono'}`}>
+                        {formData.category_id ? (categories.find(c => c.id === formData.category_id)?.name || 'Select Category') : 'Select Category'}
+                      </span>
+                    </div>
+                    <motion.span animate={{ rotate: isCategoryOpen ? 180 : 0 }}>
+                       <Plus size={14} className="text-white/30" />
+                    </motion.span>
                   </div>
+
+                  <AnimatePresence>
+                    {isCategoryOpen && (
+                      <motion.div 
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        className="absolute z-60 left-0 right-0 mt-2 bg-[#111] border border-white/10 rounded-xl overflow-hidden shadow-2xl"
+                      >
+                        {categories.map(cat => (
+                          <div 
+                            key={cat.id}
+                            onClick={() => {
+                              setFormData({...formData, category_id: cat.id});
+                              setIsCategoryOpen(false);
+                            }}
+                            className="px-4 py-3 text-xs font-mono hover:bg-[#ff0031]/10 cursor-pointer border-b border-white/5 last:border-0 hover:text-white transition-colors"
+                          >
+                            {cat.name}
+                          </div>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
 
                 {/* Address */}

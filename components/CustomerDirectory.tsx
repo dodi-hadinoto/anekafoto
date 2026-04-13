@@ -102,7 +102,9 @@ export const CustomerDirectory = ({ initialCustomers }: CustomerDirectoryProps) 
                   <td className="p-4 text-xs nothing-dot-matrix font-mono">{customer.whatsapp || '-'}</td>
                   <td className="p-4">
                     <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[8px] uppercase nothing-dot-matrix text-white/60">
-                      {customer.anekafoto_customer_categories?.name || 'Regular'}
+                      {Array.isArray(customer.anekafoto_customer_categories) 
+                        ? (customer.anekafoto_customer_categories[0]?.name || 'Regular')
+                        : (customer.anekafoto_customer_categories?.name || 'Regular')}
                     </span>
                   </td>
                   <td className="p-4 text-right">

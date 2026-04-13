@@ -27,3 +27,11 @@ out/
 Thumbs.db
 
 .vercel
+repomix-output.txt
+.wwebjs_auth/
+scratch/
+test-results/
+PLAYWRIGHT_BUG_HUNTING.md
+implementation_plan.md
+task.md
+walkthrough.md
