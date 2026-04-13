@@ -44,15 +44,14 @@ description: Kumpulan skill spesifik untuk project Anekafoto, mencakup Scraping,
 ## 3. Session Memory & Pending Tasks (Auto-Saved)
 
 > **Last State (13 April 2026)**
-> - ✅ **Vercel 404 Fixed**: Deployment dipindahkan ke project `anekafoto-crm.vercel.app` (Struktur flat).
-> - ✅ **Nothing OS 4.0 UI**: Dashboard utama selesai dibangun dengan `framer-motion` dan indikator status *live*.
-> - ✅ **Data Seeded**: 442 Data Produk Crawlee telah berhasil dimuat ke Supabase.
-> - ✅ **PRD Updated**: Fitur "3.5 Interactive Smart Quotation" telah ditambahkan ke PRD.
+> - ✅ **GitHub Authentication**: Berhasil mengonfigurasi ulang remote git menggunakan PAT (Personal Access Token) untuk push massal.
+> - ✅ **Real Data Migration**: **442 Produk hasil scraping** (Fujifilm, Canon, DJI, etc.) telah berhasil diimpor ke Supabase menggantikan data demo.
+> - ✅ **Inquiry Modal Resolution**: `AddLeadModal` diperbaiki agar robust terhadap data kosong dan sudah mendukung pemilihan produk asli.
+> - ✅ **Live Status Labeling**: Menambahkan label versi pengembangan `DEV_VERSION_v4.0.1_RC2` pada halaman utama.
 
-### 🚀 Next Action for Tomorrow (Prioritas Eksekusi)
-1. **Eksekusi Schema Database (Supabase)**: Membangun skema untuk fitur *Interactive Smart Quotation*.
-   - Migration file `20260412173000_smart_quotations.sql` perlu dieksekusi.
-   - Tabel: `anekafoto_quotations` dan `anekafoto_quotation_items`.
-   - Setup RLS (Row Level Security) untuk akses link penawaran publik (`anon` role but bound by UUID).
-2. **Build UI Web Quotation**: Membuat halaman page dinamis untuk URL `/[quotation_id]` agar kustomer bisa menekan tombol *Approve/Reject*.
-3. **Mulai WhatsApp Bridge**: Mengirimkan link tersebut secara otomatis.
+### 🚀 Next Action (Prioritas Eksekusi)
+1. **Interactive Smart Quotation Logic**: Menghubungkan tombol "Create Quote" di detail Lead dengan skema database `anekafoto_quotations`.
+2. **Dynamic UI Quotation**: Membangun halaman `app/quote/[id]/page.tsx` yang responsif sesuai desain Nothing OS agar pelanggan bisa melakukan Approve/Reject.
+3. **WhatsApp Auto-Send**: Mengaktifkan pengiriman link Quotation secara otomatis melalui WhatsApp Bridge.
+4. **Database Optimization**: Pastikan tabel `anekafoto_quotations` dan `anekafoto_quotation_items` sudah terhubung dengan RLS yang benar.
+5. **UI Polish**: Selesaikan navigasi detail Lead untuk melihat history interaksi WhatsApp.

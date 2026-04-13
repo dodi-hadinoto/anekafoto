@@ -17,7 +17,19 @@ interface Customer {
   whatsapp: string;
 }
 
-export default function CreateQuotationModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
+export default function CreateQuotationModal({ 
+  isOpen, 
+  onClose,
+  initialData
+}: { 
+  isOpen: boolean; 
+  onClose: () => void;
+  initialData?: {
+    leadId: string;
+    customer: Customer;
+    product: Product;
+  };
+}) {
   const [step, setStep] = useState(1);
   const [loading, setLoading] = useState(false);
   const [customers, setCustomers] = useState<Customer[]>([]);
@@ -29,12 +41,27 @@ export default function CreateQuotationModal({ isOpen, onClose }: { isOpen: bool
   const [selectedCustomer, setSelectedCustomer] = useState<Customer | null>(null);
   const [selectedItems, setSelectedItems] = useState<Array<{ product: Product; quantity: number; price: number }>>([]);
   const [notes, setNotes] = useState('');
+  const [createdQuote, setCreatedQuote] = useState<any>(null);
 
   useEffect(() => {
     if (isOpen) {
+      if (initialData) {
+        setSelectedCustomer(initialData.customer);
+        setSelectedItems([{
+          product: initialData.product,
+          quantity: 1,
+          price: initialData.product.price
+        }]);
+      }
       fetchData();
+    } else {
+      // Reset when closed
+      setSelectedCustomer(null);
+      setSelectedItems([]);
+      setNotes('');
+      setCreatedQuote(null);
     }
-  }, [isOpen]);
+  }, [isOpen, initialData]);
 
   async function fetchData() {
     const { data: c } = await supabase.from('anekafoto_customers').select('*').limit(20);
@@ -49,6 +76,7 @@ export default function CreateQuotationModal({ isOpen, onClose }: { isOpen: bool
     setLoading(true);
     const result = await createQuotation({
       customer_id: selectedCustomer.id,
+      lead_id: initialData?.leadId,
       items: selectedItems.map(item => ({
         product_id: item.product.id,
         quantity: item.quantity,
@@ -59,8 +87,7 @@ export default function CreateQuotationModal({ isOpen, onClose }: { isOpen: bool
     });
 
     if (result.success) {
-      onClose();
-      window.location.reload();
+      setCreatedQuote(result.data);
     } else {
       alert(result.error);
     }
@@ -70,9 +97,54 @@ export default function CreateQuotationModal({ isOpen, onClose }: { isOpen: bool
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
-      <div className="nothing-glass w-full max-w-2xl max-h-[90vh] overflow-hidden flex flex-col">
-        <div className="p-6 border-b border-white/10 flex justify-between items-center">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-xl">
+      <div className="nothing-glass w-full max-w-2xl max-h-[90vh] overflow-hidden flex flex-col animate-in zoom-in-95 duration-300">
+        
+        {createdQuote ? (
+          <div className="p-12 flex flex-col items-center text-center space-y-8 py-20">
+            <div className="w-20 h-20 rounded-full bg-[#00ff88]/20 flex items-center justify-center text-[#00ff88] animate-bounce">
+              <Check size={40} />
+            </div>
+            
+            <div className="space-y-2">
+              <h2 className="text-3xl font-bold tracking-tight uppercase">Quotation Ready</h2>
+              <p className="nothing-dot-matrix text-[10px] text-white/30 tracking-widest leading-loose">
+                DOCUMENT ID: {createdQuote.id}<br/>
+                MAGIC LINK GENERATED FOR {selectedCustomer?.full_name}
+              </p>
+            </div>
+
+            <div className="w-full space-y-4 pt-4">
+              <button 
+                onClick={() => {
+                  const quoteUrl = `${window.location.origin}/quote/${createdQuote.id}`;
+                  const text = encodeURIComponent(`Halo ${selectedCustomer?.full_name}, berikut adalah penawaran dari Anekafoto:\n\n${quoteUrl}\n\nSilakan tinjau dan berikan persetujuan langsung melalui link tersebut.`);
+                  window.open(`https://wa.me/${selectedCustomer?.whatsapp}?text=${text}`, '_blank');
+                  onClose();
+                  window.location.reload();
+                }}
+                className="w-full nothing-button-outline py-6 flex items-center justify-center gap-4 bg-[#00ff88]/10 border-[#00ff88]/30 text-[#00ff88] hover:bg-[#00ff88] hover:text-black transition-all"
+              >
+                <div className="flex flex-col items-center">
+                  <span className="nothing-dot-matrix text-[8px] tracking-widest mb-1">IMMEDIATE ACTION</span>
+                  <span className="text-lg font-bold tracking-tight">SEND VIA WHATSAPP</span>
+                </div>
+              </button>
+
+              <button 
+                onClick={() => {
+                  onClose();
+                  window.location.reload();
+                }}
+                className="text-xs nothing-dot-matrix text-white/30 hover:text-white transition-colors tracking-widest uppercase"
+              >
+                Done, take me back
+              </button>
+            </div>
+          </div>
+        ) : (
+          <>
+            <div className="p-6 border-b border-white/10 flex justify-between items-center">
           <div>
             <h3 className="nothing-dot-matrix text-[10px] text-[#ff0031] mb-1">NEW DOCUMENT</h3>
             <h2 className="text-xl font-bold uppercase tracking-tight">Create Quotation</h2>

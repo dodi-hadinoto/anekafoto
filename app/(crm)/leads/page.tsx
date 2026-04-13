@@ -5,11 +5,16 @@ import { Sidebar } from '@/components/Sidebar';
 import { supabase } from '@/lib/supabase';
 import { Search, Plus, Filter, ArrowRight, Clock, PieChart } from 'lucide-react';
 import { AddLeadModal } from '@/components/AddLeadModal';
+import { LeadDetailModal } from '@/components/LeadDetailModal';
+import CreateQuotationModal from '@/app/(crm)/quotations/CreateQuotationModal';
 
 export default function LeadsPage() {
   const [leads, setLeads] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedLead, setSelectedLead] = useState<any | null>(null);
+  const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
+  const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false);
 
   useEffect(() => {
     fetchLeads();
@@ -19,12 +24,22 @@ export default function LeadsPage() {
     setLoading(true);
     const { data } = await supabase
       .from('anekafoto_leads')
-      .select('*, anekafoto_customers(full_name, whatsapp), anekafoto_products(name, price)')
+      .select('*, anekafoto_customers(*), anekafoto_products(*)')
       .order('created_at', { ascending: false });
     
     setLeads(data || []);
     setLoading(false);
   }
+
+  const handleOpenDetail = (lead: any) => {
+    setSelectedLead(lead);
+    setIsDetailModalOpen(true);
+  };
+
+  const handleGenerateQuote = (lead: any) => {
+    setIsDetailModalOpen(false);
+    setIsQuoteModalOpen(true);
+  };
 
   const statusColors: Record<string, string> = {
     'inquiry': 'bg-blue-500/10 text-blue-500 border-blue-500/20',
@@ -106,7 +121,12 @@ export default function LeadsPage() {
                       <p className="text-xs">{new Date(lead.created_at).toLocaleDateString()}</p>
                     </div>
                   </div>
-                  <button className="nothing-button-outline opacity-0 group-hover:opacity-100 py-2">Details</button>
+                  <button 
+                    onClick={() => handleOpenDetail(lead)}
+                    className="nothing-button-outline opacity-0 group-hover:opacity-100 py-2"
+                  >
+                    Details
+                  </button>
                 </div>
               </div>
             ))
@@ -135,6 +155,28 @@ export default function LeadsPage() {
         onClose={() => setIsModalOpen(false)}
         onSuccess={fetchLeads}
       />
+
+      <LeadDetailModal
+        isOpen={isDetailModalOpen}
+        onClose={() => setIsDetailModalOpen(false)}
+        lead={selectedLead}
+        onGenerateQuote={handleGenerateQuote}
+      />
+
+      {isQuoteModalOpen && (
+        <CreateQuotationModal
+          isOpen={isQuoteModalOpen}
+          onClose={() => {
+            setIsQuoteModalOpen(false);
+            fetchLeads();
+          }}
+          initialData={selectedLead ? {
+            leadId: selectedLead.id,
+            customer: selectedLead.anekafoto_customers,
+            product: selectedLead.anekafoto_products
+          } : undefined}
+        />
+      )}
     </div>
   );
 }
