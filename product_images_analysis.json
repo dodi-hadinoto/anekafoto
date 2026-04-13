@@ -1,0 +1,658 @@
+[
+  {
+    "src": "https://shop.anekafoto.com/img/anekafoto82cartcloud-logo-1706668052.jpg",
+    "id": "",
+    "class": "logo",
+    "alt": "shop.anekafoto.com",
+    "width": 100,
+    "height": 28
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/anekafoto82cartcloud-logo-1706668052.jpg",
+    "id": "",
+    "class": "logo",
+    "alt": "shop.anekafoto.com",
+    "width": 300,
+    "height": 69
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Camcorder.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Digital%20Camera.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Lenses.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Lighting%20&%20Studio.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Video%20Camera.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Drone%20&%20Accessories.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/FilmCamera.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Accessories.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Content%20Creator.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Lens%20Filters.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Live%20Streaming.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Tripod.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/usb-cables-adapters_12skoy8.png",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/webcam.png",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/More%20Categories.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "pro_gallery_item swiper-lazy",
+    "alt": "Fujifilm XC 15-45mm f/3.5-5.6 OIS PZ",
+    "width": 235,
+    "height": 18
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "pro_gallery_item swiper-lazy",
+    "alt": "Fujifilm XC 15-45mm f/3.5-5.6 OIS PZ",
+    "width": 235,
+    "height": 18
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "pro_gallery_item swiper-lazy",
+    "alt": "Fujifilm XC 15-45mm f/3.5-5.6 OIS PZ",
+    "width": 235,
+    "height": 18
+  },
+  {
+    "src": "https://shop.anekafoto.com/12345-home_default/fujifilm-xc-15-45mm-f35-56-ois-pz.jpg",
+    "id": "",
+    "class": "pro_gallery_item swiper-lazy swiper-lazy-loaded",
+    "alt": "Fujifilm XC 15-45mm f/3.5-5.6 OIS PZ",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "https://shop.anekafoto.com/16587-home_default/fujifilm-xc-15-45mm-f35-56-ois-pz.jpg",
+    "id": "",
+    "class": "pro_gallery_item swiper-lazy swiper-lazy-loaded",
+    "alt": "Fujifilm XC 15-45mm f/3.5-5.6 OIS PZ",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "https://shop.anekafoto.com/12344-small_default/fujifilm-xc-15-45mm-f35-56-ois-pz.jpg",
+    "id": "",
+    "class": "pro_gallery_thumb swiper-lazy swiper-lazy-loaded",
+    "alt": "",
+    "width": 70,
+    "height": 70
+  },
+  {
+    "src": "https://shop.anekafoto.com/12343-small_default/fujifilm-xc-15-45mm-f35-56-ois-pz.jpg",
+    "id": "",
+    "class": "pro_gallery_thumb swiper-lazy swiper-lazy-loaded",
+    "alt": "",
+    "width": 70,
+    "height": 70
+  },
+  {
+    "src": "https://shop.anekafoto.com/12342-small_default/fujifilm-xc-15-45mm-f35-56-ois-pz.jpg",
+    "id": "",
+    "class": "pro_gallery_thumb swiper-lazy swiper-lazy-loaded",
+    "alt": "",
+    "width": 70,
+    "height": 70
+  },
+  {
+    "src": "https://shop.anekafoto.com/12345-small_default/fujifilm-xc-15-45mm-f35-56-ois-pz.jpg",
+    "id": "",
+    "class": "pro_gallery_thumb swiper-lazy swiper-lazy-loaded",
+    "alt": "",
+    "width": 70,
+    "height": 70
+  },
+  {
+    "src": "https://shop.anekafoto.com/16587-small_default/fujifilm-xc-15-45mm-f35-56-ois-pz.jpg",
+    "id": "",
+    "class": "pro_gallery_thumb swiper-lazy swiper-lazy-loaded",
+    "alt": "",
+    "width": 70,
+    "height": 70
+  },
+  {
+    "src": "https://shop.anekafoto.com/upload/steasycontent/tokped-logo.png",
+    "id": "",
+    "class": "hover_effect_target",
+    "alt": "",
+    "width": 110,
+    "height": 28
+  },
+  {
+    "src": "https://shop.anekafoto.com/upload/steasycontent/shopee-logo.png",
+    "id": "",
+    "class": "hover_effect_target",
+    "alt": "",
+    "width": 110,
+    "height": 35
+  },
+  {
+    "src": "https://shop.anekafoto.com/upload/steasycontent/blibli-logo.png",
+    "id": "",
+    "class": "hover_effect_target",
+    "alt": "",
+    "width": 110,
+    "height": 62
+  },
+  {
+    "src": "https://shop.anekafoto.com/upload/steasycontent/tiktok-shop-logo-png13o2a4h.png",
+    "id": "",
+    "class": "hover_effect_target",
+    "alt": "",
+    "width": 33,
+    "height": 36
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Ricoh GR III OTH Digital Camera",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Ricoh GR III OTH Digital Camera",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Brica B Steady Multimate",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Brica B Steady Multimate",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Godox SK400II-V Studio Flash Monolight",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Godox SK400II-V Studio Flash Monolight",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Panasonic Lumix S9 Mirrorless Camera",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Panasonic Lumix S9 Mirrorless Camera",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Zhiyun Fiveray V60 Bi Color LED Light Wand",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Zhiyun Fiveray V60 Bi Color LED Light Wand",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Aputure Space Light Diffuser for Nova LED Panels",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Aputure Space Light Diffuser for Nova LED Panels",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Akaso V50 X New Version Action Camera",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Akaso V50 X New Version Action Camera",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Rode NTG4+ Shotgun Microphone",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Rode NTG4+ Shotgun Microphone",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Panasonic Lumix BS1H Box Cinema Camera",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Panasonic Lumix BS1H Box Cinema Camera",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Godox SZ300R Zoom RGB LED Spotlight",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Godox SZ300R Zoom RGB LED Spotlight",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Colbor CL330 Bi-Color COB LED Video Light",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Colbor CL330 Bi-Color COB LED Video Light",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Nikon AF-S DX 12-24mm f/4G IF-ED",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Nikon AF-S DX 12-24mm f/4G IF-ED",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Hollyland Mars M1 Wireless Transmitter Receiver Monitor",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Hollyland Mars M1 Wireless Transmitter Receiver Monitor",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Aputure Rain Shield for Nova P600c LED Panel",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Aputure Rain Shield for Nova P600c LED Panel",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "Tamron Lens SP 150-600mm F/5-6.3 Di VC USD G2 for Canon",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "Tamron Lens SP 150-600mm F/5-6.3 Di VC USD G2 for Canon",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "",
+    "id": "",
+    "class": "front-image  swiper-lazy  ",
+    "alt": "PGYTECH OneGo Solo Sling Bag V2",
+    "width": 440,
+    "height": 0
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/p/en-default-home_default.jpg",
+    "id": "",
+    "class": "holder",
+    "alt": "PGYTECH OneGo Solo Sling Bag V2",
+    "width": 440,
+    "height": 440
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/icons/call.png",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 40,
+    "height": 42
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/icons/whatsapp.png",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 40,
+    "height": 42
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/icons/message.png",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 40,
+    "height": 39
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/icons/logo-official-partner.png",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 150,
+    "height": 168
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Camcorder.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Digital%20Camera.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Lenses.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Lighting%20&%20Studio.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Video%20Camera.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Drone%20&%20Accessories.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/FilmCamera.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Accessories.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Content%20Creator.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Lens%20Filters.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Live%20Streaming.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/Tripod.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/usb-cables-adapters_12skoy8.png",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/webcam.png",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "src": "https://shop.anekafoto.com/img/cms/imageCategories/More%20Categories.jpg",
+    "id": "",
+    "class": "",
+    "alt": "",
+    "width": 700,
+    "height": 700
+  }
+]
