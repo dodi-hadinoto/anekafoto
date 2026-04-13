@@ -4,6 +4,8 @@ import { InventoryGrid } from '@/components/InventoryGrid';
 import { supabase } from '@/lib/supabase';
 import { Bell } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export default async function InventoryPage() {
   // Fetch all products from Supabase
   const { data: products, error } = await supabase
