@@ -17,6 +17,7 @@ export default function Home() {
       </div>
       
       <div className="mt-24 opacity-20 text-[8px] nothing-dot-matrix flex gap-8">
+        <span className="text-[#ff0031] opacity-100">DEV_VERSION_v4.0.1_RC2</span>
         <span>STABLE_BUILD_ALPHA_1.0</span>
         <span>LATENCY: 12ms</span>
         <span>ENCRYPTION: AES-256</span>
