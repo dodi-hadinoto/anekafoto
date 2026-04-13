@@ -44,10 +44,14 @@ export const AddLeadModal = ({ isOpen, onClose, onSuccess }: AddLeadModalProps) 
   }, [isOpen]);
 
   async function fetchData() {
-    const { data: c } = await supabase.from('anekafoto_customers').select('id, full_name, whatsapp').limit(20);
-    const { data: p } = await supabase.from('anekafoto_products').select('id, name, price').limit(20);
-    setCustomers(c || []);
-    setProducts(p || []);
+    try {
+      const { data: c } = await supabase.from('anekafoto_customers').select('id, full_name, whatsapp').limit(20);
+      const { data: p } = await supabase.from('anekafoto_products').select('id, name, price').limit(20);
+      setCustomers(c || []);
+      setProducts(p || []);
+    } catch (err) {
+      console.error('Error fetching data for modal:', err);
+    }
   }
 
   const handleCreate = async (e: React.FormEvent) => {
@@ -58,21 +62,27 @@ export const AddLeadModal = ({ isOpen, onClose, onSuccess }: AddLeadModalProps) 
     }
     
     setLoading(true);
-    const result = await createLead({
-      customer_id: selectedCustomer.id,
-      product_id: selectedProduct?.id,
-      estimated_value: estimatedValue || selectedProduct?.price || 0,
-      notes: notes,
-      source: 'Direct CRM'
-    });
-    setLoading(false);
+    try {
+      const result = await createLead({
+        customer_id: selectedCustomer.id,
+        product_id: selectedProduct?.id || null,
+        estimated_value: estimatedValue || selectedProduct?.price || 0,
+        notes: notes,
+        source: 'Direct CRM'
+      });
 
-    if (result.success) {
-      resetForm();
-      onSuccess();
-      onClose();
-    } else {
-      alert('Gagal membuat inquiry: ' + result.error);
+      if (result.success) {
+        resetForm();
+        onSuccess();
+        onClose();
+      } else {
+        alert('Gagal membuat inquiry: ' + result.error);
+      }
+    } catch (err) {
+      console.error('handleCreate error:', err);
+      alert('Terjadi kesalahan sistem saat membuat inquiry.');
+    } finally {
+      setLoading(false);
     }
   };
 
