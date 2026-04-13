@@ -23,9 +23,26 @@ export const ProductModal = ({ product, isOpen, onClose }: ProductModalProps) =>
   if (!product) return null;
 
   const specs = product.specifications || {};
-  const keyFeatures = specs['Key Features'] || [];
-  const inTheBox = specs['In the Box'] || [];
-  const techSpecs = specs['Specifications'] || {};
+  
+  // Safely parse pipe-separated strings into arrays
+  const parseList = (text: any) => {
+    if (!text) return [];
+    if (Array.isArray(text)) return text;
+    if (typeof text === 'string') return text.split('|').map(s => s.trim()).filter(Boolean);
+    return [];
+  };
+
+  const keyFeatures = parseList(specs['Key Features']);
+  const inTheBox = parseList(specs['What’s In The Box'] || specs['In the Box']);
+  
+  // Tech specs are whatever is left, or the nested 'Specifications' object
+  let techSpecs = specs['Configurations'] || specs['Specifications'];
+  if (!techSpecs || typeof techSpecs !== 'object') {
+    techSpecs = { ...specs };
+    delete techSpecs['Key Features'];
+    delete techSpecs['What’s In The Box'];
+    delete techSpecs['In the Box'];
+  }
 
   return (
     <AnimatePresence>
