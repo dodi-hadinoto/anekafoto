@@ -44,14 +44,14 @@ description: Kumpulan skill spesifik untuk project Anekafoto, mencakup Scraping,
 ## 3. Session Memory & Pending Tasks (Auto-Saved)
 
 > **Last State (13 April 2026)**
-> - ✅ **GitHub Authentication**: Berhasil mengonfigurasi ulang remote git menggunakan PAT (Personal Access Token) untuk push massal.
-> - ✅ **Real Data Migration**: **442 Produk hasil scraping** (Fujifilm, Canon, DJI, etc.) telah berhasil diimpor ke Supabase menggantikan data demo.
-> - ✅ **Inquiry Modal Resolution**: `AddLeadModal` diperbaiki agar robust terhadap data kosong dan sudah mendukung pemilihan produk asli.
-> - ✅ **Live Status Labeling**: Menambahkan label versi pengembangan `DEV_VERSION_v4.0.1_RC2` pada halaman utama.
+> - ✅ **Production Restored**: Sinkronisasi Vercel Environment Variables dan forcing dynamic rendering untuk 442 produk.
+> - ✅ **Technical Info Fixed**: Perbaikan parser pada `ProductModal.tsx` sehingga spesifikasi produk muncul dengan rapi.
+> - ✅ **GitHub Push**: Seluruh perbaikan kode dan status terbaru telah di-push ke main repository.
+> - 🏗️ **Image Recovery (Opsi B)**: Script `scraper/image_patcher.js` telah dibuat dan memproses **28 dari 442 produk**.
 
 ### 🚀 Next Action (Prioritas Eksekusi)
-1. **Interactive Smart Quotation Logic**: Menghubungkan tombol "Create Quote" di detail Lead dengan skema database `anekafoto_quotations`.
-2. **Dynamic UI Quotation**: Membangun halaman `app/quote/[id]/page.tsx` yang responsif sesuai desain Nothing OS agar pelanggan bisa melakukan Approve/Reject.
-3. **WhatsApp Auto-Send**: Mengaktifkan pengiriman link Quotation secara otomatis melalui WhatsApp Bridge.
-4. **Database Optimization**: Pastikan tabel `anekafoto_quotations` dan `anekafoto_quotation_items` sudah terhubung dengan RLS yang benar.
-5. **UI Polish**: Selesaikan navigasi detail Lead untuk melihat history interaksi WhatsApp.
+1. **Resume Image Recovery**: Jalankan kembali `node scraper/image_patcher.js` untuk menyelesaikan sisa 414 produk.
+2. **Verification Final**: Cek rendring gambar di Vercel Production UI setelah sinkronisasi DB selesai.
+3. **Interactive Smart Quotation Logic**: Menghubungkan tombol "Create Quote" di detail Lead dengan skema database `anekafoto_quotations`.
+4. **Dynamic UI Quotation**: Membangun halaman `app/quote/[id]/page.tsx` yang responsif sesuai desain Nothing OS agar pelanggan bisa melakukan Approve/Reject.
+5. **WhatsApp Auto-Send**: Mengaktifkan pengiriman link Quotation secara otomatis melalui WhatsApp Bridge.
