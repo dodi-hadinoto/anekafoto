@@ -292,7 +292,7 @@ export default function CreateQuotationModal({
           >
             {loading ? <Loader2 className="animate-spin" size={16} /> : 'GENERATE QUOTATION'}
           </button>
-        </div>
+        )}
       </div>
     </div>
   );
