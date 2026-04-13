@@ -6,10 +6,16 @@ import { Bell } from 'lucide-react';
 
 export default async function InventoryPage() {
   // Fetch all products from Supabase
-  const { data: products } = await supabase
+  const { data: products, error } = await supabase
     .from('anekafoto_products')
     .select('*')
     .order('name', { ascending: true });
+
+  if (error) {
+    console.error('❌ Error fetching products:', error);
+  } else {
+    console.log(`✅ Fetched ${products?.length || 0} products from database.`);
+  }
 
   return (
     <div className="flex min-h-screen bg-transparent text-white font-sans overflow-x-hidden">

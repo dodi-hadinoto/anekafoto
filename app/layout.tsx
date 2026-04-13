@@ -32,7 +32,6 @@ export default function RootLayout({
       <body className="min-h-screen text-white bg-black">
         <DotGrid />
         {children}
-        <SeedData />
       </body>
     </html>
   );
