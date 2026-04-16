@@ -2,38 +2,55 @@ import React from 'react';
 import { supabase } from '@/lib/supabase';
 import { Bell, Search, ShoppingBag } from 'lucide-react';
 import { MetricCard } from '@/components/ui/MetricCard';
-
-// Temporary mock for Lead Chart until recharts component is fully built
-function LeadChartMock() {
-  return (
-    <div className="mt-6 nothing-glass p-6 h-[400px] flex flex-col justify-between">
-      <div>
-        <h3 className="nothing-dot-matrix text-[10px] text-white/50 mb-2">Lead Growth Trend</h3>
-        <p className="text-2xl tracking-tight">System Analysis</p>
-      </div>
-      <div className="flex-1 flex items-center justify-center border border-white/5 border-dashed mt-4 rounded-xl relative overflow-hidden group">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(225,29,72,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-        <p className="nothing-dot-matrix text-[10px] text-white/30 z-10">[ CHART RENDERING PENDING ]</p>
-        <svg className="absolute w-full h-full opacity-20" preserveAspectRatio="none" viewBox="0 0 100 100">
-           <path d="M0,80 Q25,50 50,60 T100,20 L100,100 L0,100 Z" fill="rgba(225,29,72,0.1)" stroke="#FF0031" strokeWidth="0.5"/>
-        </svg>
-      </div>
-    </div>
-  );
-}
+import LeadChart from '@/components/LeadChart';
 
 export default async function DashboardPage() {
+  // 1. Fetch real metrics
+  const { count: totalLeads } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true });
+  const { count: inquiryCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'inquiry');
+  const { count: quoteCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'quotation');
+  const { count: wonCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'closed_won');
+
+  // 2. Fetch Latest 4 Products for Sidebar
   const { data: products } = await supabase
     .from('anekafoto_products')
     .select('*')
     .order('price', { ascending: false })
     .limit(4);
 
-  // Fetch real metrics
-  const { count: totalLeads } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true });
-  const { count: inquiryCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'inquiry');
-  const { count: quoteCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'quotation');
-  const { count: wonCount } = await supabase.from('anekafoto_leads').select('*', { count: 'exact', head: true }).eq('status', 'closed_won');
+  // 3. Analytics Logic: Fetch last 14 days of leads
+  const fourteenDaysAgo = new Date();
+  fourteenDaysAgo.setDate(fourteenDaysAgo.getDate() - 14);
+  
+  const { data: leadHistory } = await supabase
+    .from('anekafoto_leads')
+    .select('created_at')
+    .gte('created_at', fourteenDaysAgo.toISOString())
+    .order('created_at', { ascending: true });
+
+  // Process data for Chart: Group by Date
+  const dateCounts: Record<string, number> = {};
+  
+  // Initialize last 14 days with 0
+  for (let i = 0; i <= 14; i++) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    const dateStr = d.toLocaleDateString('id-ID', { day: '2-digit', month: 'short' });
+    dateCounts[dateStr] = 0;
+  }
+
+  // Aggregate real data
+  leadHistory?.forEach((lead) => {
+    const dateStr = new Date(lead.created_at).toLocaleDateString('id-ID', { day: '2-digit', month: 'short' });
+    if (dateCounts[dateStr] !== undefined) {
+      dateCounts[dateStr]++;
+    }
+  });
+
+  // Convert to chart format and reverse to show chronological order
+  const chartData = Object.keys(dateCounts)
+    .map(date => ({ date, leads: dateCounts[date] }))
+    .reverse();
 
   return (
     <div className="flex flex-col text-white font-sans overflow-x-hidden pt-4">
@@ -67,7 +84,8 @@ export default async function DashboardPage() {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-2">
         <div className="lg:col-span-2">
-          <LeadChartMock />
+          {/* Real Analytics Chart */}
+          <LeadChart data={chartData} />
         </div>
         
         <div className="mt-6 nothing-glass p-6">

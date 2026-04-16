@@ -117,9 +117,11 @@ export default function CreateQuotationModal({
             <div className="w-full space-y-4 pt-4">
               <button 
                 onClick={() => {
+                  const waNumber = (selectedCustomer?.whatsapp || '').replace(/\D/g, '');
+                  const formattedNumber = waNumber.startsWith('0') ? '62' + waNumber.substring(1) : waNumber;
                   const quoteUrl = `${window.location.origin}/quote/${createdQuote.id}`;
                   const text = encodeURIComponent(`Halo ${selectedCustomer?.full_name}, berikut adalah penawaran dari Anekafoto:\n\n${quoteUrl}\n\nSilakan tinjau dan berikan persetujuan langsung melalui link tersebut.`);
-                  window.open(`https://wa.me/${selectedCustomer?.whatsapp}?text=${text}`, '_blank');
+                  window.open(`https://wa.me/${formattedNumber}?text=${text}`, '_blank');
                   onClose();
                   window.location.reload();
                 }}

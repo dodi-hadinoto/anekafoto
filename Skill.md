@@ -43,15 +43,12 @@ description: Kumpulan skill spesifik untuk project Anekafoto, mencakup Scraping,
 
 ## 3. Session Memory & Pending Tasks (Auto-Saved)
 
-> **Last State (13 April 2026)**
-> - ✅ **Production Restored**: Sinkronisasi Vercel Environment Variables dan forcing dynamic rendering untuk 442 produk.
-> - ✅ **Technical Info Fixed**: Perbaikan parser pada `ProductModal.tsx` sehingga spesifikasi produk muncul dengan rapi.
-> - ✅ **GitHub Push**: Seluruh perbaikan kode dan status terbaru telah di-push ke main repository.
-> - 🏗️ **Image Recovery (Opsi B)**: Script `scraper/image_patcher.js` telah dibuat dan memproses **28 dari 442 produk**.
+> **Last State (16 April 2026)**
+> - ✅ **Image Recovery Tuntas**: Script `scraper/image_patcher.js` telah selesai memproses **414 produk**. Semua gambar produk kini tersinkronisasi di database.
+> - ✅ **Quotation UI & Logic**: Halaman penawaran publik (`app/quote/[id]`) dan modal pembuatan penawaran (`CreateQuotationModal`) sudah aktif.
+> - ⚠️ **WhatsApp Bridge (On Hold)**: Skrip `scripts/whatsapp_service.js` sudah siap, namun dinonaktifkan sementara atas permintaan user. CRM kembali menggunakan mode manual via WhatsApp Web API.
 
 ### 🚀 Next Action (Prioritas Eksekusi)
-1. **Resume Image Recovery**: Jalankan kembali `node scraper/image_patcher.js` untuk menyelesaikan sisa 414 produk.
-2. **Verification Final**: Cek rendring gambar di Vercel Production UI setelah sinkronisasi DB selesai.
-3. **Interactive Smart Quotation Logic**: Menghubungkan tombol "Create Quote" di detail Lead dengan skema database `anekafoto_quotations`.
-4. **Dynamic UI Quotation**: Membangun halaman `app/quote/[id]/page.tsx` yang responsif sesuai desain Nothing OS agar pelanggan bisa melakukan Approve/Reject.
-5. **WhatsApp Auto-Send**: Mengaktifkan pengiriman link Quotation secara otomatis melalui WhatsApp Bridge.
+1. **Verification Production**: Cek rendring gambar produk di UI Vercel/Production untuk memastikan CDN Supabase melayani gambar dengan benar.
+2. **Final QA Quotation Flow**: Melakukan simulasi "End-to-End" (Buat Quote -> Kirim Manual -> Approve sebagai Customer) untuk memastikan status leads berubah otomatis menjadi `closed_won`.
+3. **Re-activate WhatsApp Bridge**: Aktifkan kembali layanan otomatisasi jika Anda sudah siap untuk melakukan Scan QR Code.
